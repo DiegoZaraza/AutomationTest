@@ -1,0 +1,215 @@
+[
+  {
+    "uri": "features/feature/search_ebay.feature",
+    "id": "search-product-ebay",
+    "keyword": "Feature",
+    "name": "Search product Ebay",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "search-product-ebay;search-product-ebay",
+        "keyword": "Scenario",
+        "name": "Search product ebay",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1766989000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Enter Ebay index page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1722176000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Enter 'SHOES' for search object",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5429784000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Check for brand 'PUMA'",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1362794000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Check for size '10'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6640550000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Get search result quantity",
+            "line": 8,
+            "output": [
+              "the results obtained in the search is: 4,910"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_search.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67967000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Order by 'Precio + Envío: más bajo primero'",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2669855000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Get the first 5 search results",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_search.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5668036000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Print the search results",
+            "line": 11,
+            "output": [
+              "Puma Hombres plomo Cat FTR Slipper Zapatillas Sandalias de diapositivas de playa de menta 37227603 - 114802.63",
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes White Playa Sandalias de diapositiva 37227602 - 114802.63",
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes Black Beach Sandalias de diapositiva 37227601 - 114802.63",
+              "Vintage Puma Super Sport Zapatos - 26315.79",
+              "Puma Golf para hombres Bunki Chanclas Sandalias Piscina Zapatos blanco flecos - 73750.0"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_search.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Print the search results by name",
+            "line": 12,
+            "output": [
+              "Puma Golf para hombres Bunki Chanclas Sandalias Piscina Zapatos blanco flecos - 73750.0",
+              "Puma Hombres plomo Cat FTR Slipper Zapatillas Sandalias de diapositivas de playa de menta 37227603 - 114802.63",
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes Black Beach Sandalias de diapositiva 37227601 - 114802.63",
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes White Playa Sandalias de diapositiva 37227602 - 114802.63",
+              "Vintage Puma Super Sport Zapatos - 26315.79"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_search.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Print the search results by price",
+            "line": 13,
+            "output": [
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes White Playa Sandalias de diapositiva 37227602 - 114802.63",
+              "Puma Para Hombre Plomo Gato FTR Zapatillas Running Shoes Black Beach Sandalias de diapositiva 37227601 - 114802.63",
+              "Puma Hombres plomo Cat FTR Slipper Zapatillas Sandalias de diapositivas de playa de menta 37227603 - 114802.63",
+              "Puma Golf para hombres Bunki Chanclas Sandalias Piscina Zapatos blanco flecos - 73750.0",
+              "Vintage Puma Super Sport Zapatos - 26315.79"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_search.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19723000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541202000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
