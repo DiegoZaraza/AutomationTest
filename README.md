@@ -32,4 +32,6 @@ To run the automated tests, you execute the next command:
 cucumber --format pretty --expand --format json -o "report.json"
 ```
 
-* **Diego Andres Zaraza** - [diegozaraza](https://github.com/diegozaraza)
+The result of the execution is sent to the configured email
+
+**Diego Andres Zaraza** - [diegozaraza](https://github.com/diegozaraza)
